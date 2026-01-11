@@ -63,6 +63,15 @@ curl -sSL https://install.pi-hole.net | bash
 ```
 2) Static IP assigned later! Continue the installation without static IP for now
 3) Use **Cloudflare (DNSSEC)** upstream DNS provider
-4) **Yes** to using third party lists for ad blocking 
+4) **Yes** to using third party lists for ad blocking
+
+--- 
+
+## Pi-hole DNS Details 
+
+- **IPv4:** 192.168.1.142
+- **IPv6:** 2a0a:ef40:14de:2001:be24:11ff:fe6a:93bc
+- **Web interface:** http://pi.hole:80/admin OR http://192.168.1.142:80/admin
+- **Admin webpage login password:** Ohg0ygQQ [TEMPORARY] 
 
 
