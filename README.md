@@ -44,4 +44,13 @@ ssh diy-dns-deadification@diy-dns-deadification
 
 --- 
 
+## Update Packages 
+
+```bash
+sudo apt update
+sudo apt upgrade
+```
+
+--- 
+
 
