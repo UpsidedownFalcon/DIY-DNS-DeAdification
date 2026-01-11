@@ -53,4 +53,12 @@ sudo apt upgrade
 
 --- 
 
+## Installing Pi-hole 
+
+[Pi-hole's website](https://pi-hole.net/) leads to its [GitHub repo](https://github.com/pi-hole/pi-hole/#one-step-automated-install) for installation - from which, to install Pi-hole: 
+
+```bash
+curl -sSL https://install.pi-hole.net | bash
+``` 
+
 
