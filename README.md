@@ -28,4 +28,20 @@ Pi-hole based DNS server for network wide ad blocking
 
 2) Installed SSH
 
+--- 
+
+## SSH into VM 
+
+1) Open a termainal e.g command prompt
+2) SSH command
+```bash
+ssh diy-dns-deadification@diy-dns-deadification
+```
+
+3) Add fingerprint if prompted
+4) Enter password
+5) Et voila
+
+--- 
+
 
