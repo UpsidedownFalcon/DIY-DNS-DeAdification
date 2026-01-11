@@ -16,6 +16,16 @@ Pi-hole based DNS server for network wide ad blocking
 
 <img width="666" height="491" alt="image" src="https://github.com/user-attachments/assets/a09a5eb1-bef1-4b98-b647-d2b5d43113fa" /> 
 
----
+--- 
+
+## Ubuntu Bios 
+
+1) Added the following server information: 
+- **Your name:** diy-dns-deadification
+- **Your server's name:** diy-dns-deadification
+- **Username:** diy-dns-deadification
+- **Password:** diy-dns-deadification [TEMPORARY]
+
+2) Installed SSH
 
 
