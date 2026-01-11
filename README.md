@@ -78,10 +78,25 @@ curl -sSL https://install.pi-hole.net | bash
 
 ## Changing Router's DNS Settings 
 
-1) Going to my (Vodafone) router's admin page @ **192.168.1.1**
+1) Logging into my (Vodafone) router's admin page @ **192.168.1.1**
 2) Turning on **Expert Mode**
 3) Going to **Internet** -> **DNS & DDNS**
 4) Selecting **Manually** for **DNS configuration**
-5) **Domain Name Server (DNS) Address** = 192.168.1.42 (IP OF PI HOLE DNS)
+5) **Domain Name Server (DNS) Address** = 192.168.1.142 (IP OF PI HOLE DNS)
 6) **Secondary DNS Address (optional)** = 1.1.1.1 (CLOUDFLARE PUBLIC DNS)
 7) **Apply** to save changes 
+
+---
+
+## Assigning a Static IP to the Pi-hole DNS 
+
+1) Logging into my (Vodafone) router's admin page @ **192.168.1.1**
+2) Turning on **Expert Mode**
+3) Going to **Settings** -> **Local Network**
+4) Scroll down to **Static DHCPv4 - Local Network**
+5) Adding **diy-dns-deadification** from dropdown
+6) Ensuring its static IP is set to **192.168.1.142**
+7) **Apply** to save changes
+
+--- 
+
