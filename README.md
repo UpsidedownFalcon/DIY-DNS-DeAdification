@@ -57,8 +57,12 @@ sudo apt upgrade
 
 [Pi-hole's website](https://pi-hole.net/) leads to its [GitHub repo](https://github.com/pi-hole/pi-hole/#one-step-automated-install) for installation - from which, to install Pi-hole: 
 
+1) Quick install 
 ```bash
 curl -sSL https://install.pi-hole.net | bash
-``` 
+```
+2) Static IP assigned later! Continue the installation without static IP for now
+3) Use **Cloudflare (DNSSEC)** upstream DNS provider
+4) **Yes** to using third party lists for ad blocking 
 
 
