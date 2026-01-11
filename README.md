@@ -100,3 +100,4 @@ curl -sSL https://install.pi-hole.net | bash
 
 --- 
 
+Credit to [Learn To HomeLab](https://learntohomelab.com/docs/HomeLab-Series/EP7_setuppihole/) 
