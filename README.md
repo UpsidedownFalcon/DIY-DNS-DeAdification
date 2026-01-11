@@ -74,4 +74,14 @@ curl -sSL https://install.pi-hole.net | bash
 - **Web interface:** http://pi.hole:80/admin OR http://192.168.1.142:80/admin
 - **Admin webpage login password:** Ohg0ygQQ [TEMPORARY] 
 
+---
 
+## Changing Router's DNS Settings 
+
+1) Going to my (Vodafone) router's admin page @ **192.168.1.1**
+2) Turning on **Expert Mode**
+3) Going to **Internet** -> **DNS & DDNS**
+4) Selecting **Manually** for **DNS configuration**
+5) **Domain Name Server (DNS) Address** = 192.168.1.42 (IP OF PI HOLE DNS)
+6) **Secondary DNS Address (optional)** = 1.1.1.1 (CLOUDFLARE PUBLIC DNS)
+7) **Apply** to save changes 
